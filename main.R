@@ -18,7 +18,8 @@
 #' less_than_zero(c(-1,0,1,2,3,4))
 #' [1] TRUE FALSE FALSE FALSE FALSE FALSE
 less_than_zero <- function(x) {
-    return(x < 2)
+    x <- 2
+    return(x)
 }
 
 #' Evaluate whether the argument is between two numbers
@@ -43,8 +44,9 @@ less_than_zero <- function(x) {
 #' [1,] FALSE  TRUE  TRUE
 #' [2,]  TRUE FALSE FALSE
 #' [3,] FALSE FALSE FALSE
-is_between <- function(x, a, b) {
-    return(NULL)
+is_between <- function(55, 50, 60) {
+    
+    return(TRUE)
 }
 
 #' Return the values of the input vector that are not NA
